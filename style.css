@@ -1,0 +1,127 @@
+body{
+    background-color: #42363A;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("Layer 1.png");
+  height: 480px;
+   
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    float: right;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+   
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: red;
+    
+  }
+  .parent{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .container-img {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .come{
+      color: white;
+      margin-left: 40%;
+  }
+  .parts {
+    display: flex;
+
+}
+
+.part1 {
+    width: 300px;
+    height: 550px;
+    background-image: url('Layer 6.png');
+    margin: 10px;
+}
+
+.part2 {
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+
+    background-image: url('Layer 72.png');
+}
+
+.part3 {
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+
+    background-image: url('Layer 8.png');
+}
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    background-color: #D24F4B;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #000000;
+
+}
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    background-color: #84993B;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #000000;
+
+  }
+  .square3 {
+    width: 200px;
+    height: 200px;
+    background-color: #AA6327;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #000000;
+
+
+}
+.footer{
+    display: flex;
+    background-color: red;
+    height: 170%;
+    color: white;
+  text-align: justify;
+    
+}
